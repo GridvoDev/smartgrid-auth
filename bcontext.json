@@ -21,26 +21,6 @@
       ]
     },
     {
-      "id": "lesseeRepository",
-      "func": "lib.infrastructure.repository.mongodbAndHttpLesseeRepository",
-      "props": [
-        {
-          "name": "dBUrl",
-          "value": "mongodb://10.0.2.16:27017/GLesseeAuthentication"
-        }
-      ]
-    },
-    {
-      "id": "stationRepository",
-      "func": "lib.infrastructure.repository.mongodbStationRepository",
-      "props": [
-        {
-          "name": "dBUrl",
-          "value": "mongodb://10.0.2.16:27017/GLesseeAuthentication"
-        }
-      ]
-    },
-    {
       "id": "memberRepository",
       "func": "lib.infrastructure.repository.mongodbAndHttpMemberRepository",
       "props": [
