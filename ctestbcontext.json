@@ -5,6 +5,10 @@
     {
       "id": "roleAndPermissionService",
       "func": "test.mock.application.service.roleAndPermissionService"
+    },
+    {
+      "id": "authService",
+      "func": "test.mock.application.service.authService"
     }
   ]
 }
